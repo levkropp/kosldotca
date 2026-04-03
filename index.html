@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOSL - Kropp Olsha Semiconductor Lithography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23434e64'/><rect x='15' y='15' width='70' height='70' rx='1' fill='none' stroke='white' stroke-width='4'/><circle cx='50' cy='50' r='28' fill='none' stroke='white' stroke-width='3.5'/><rect x='25' y='25' width='50' height='50' fill='none' stroke='white' stroke-width='3' transform='rotate(45 50 50)'/><circle cx='50' cy='50' r='15' fill='none' stroke='white' stroke-width='2.5'/><rect x='37' y='37' width='26' height='26' fill='none' stroke='white' stroke-width='2'/><circle cx='50' cy='50' r='4' fill='white'/></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="kosl-logo.webp" alt="KOSL" class="nav-logo-img">
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-mark-wrap">
+        <svg class="hero-mark" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="20" width="160" height="160" rx="2" stroke="white" stroke-width="4"/>
+          <circle cx="100" cy="100" r="64" stroke="white" stroke-width="3.5"/>
+          <rect x="44" y="44" width="112" height="112" rx="1" stroke="white" stroke-width="3" transform="rotate(45 100 100)"/>
+          <circle cx="100" cy="100" r="34" stroke="white" stroke-width="2.5"/>
+          <rect x="72" y="72" width="56" height="56" rx="1" stroke="white" stroke-width="2"/>
+          <circle cx="100" cy="100" r="14" stroke="white" stroke-width="1.5"/>
+          <rect x="90" y="90" width="20" height="20" rx="0.5" stroke="white" stroke-width="1.5"/>
+          <circle cx="100" cy="100" r="4" fill="white"/>
+        </svg>
+      </div>
+      <h1>KOSL</h1>
+      <p class="hero-tagline">Kropp Olsha Semiconductor Lithography</p>
+      <p class="hero-desc">Open source tools and processes for accessible semiconductor fabrication.</p>
+      <a href="#projects" class="hero-btn">Our Projects</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About KOSL</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>KOSL (Kropp Olsha Semiconductor Lithography) is developing open source processes and equipment for home semiconductor fabrication.</p>
+          <p>We believe the tools to make chips should be as accessible as the tools to make PCBs. Our work eliminates the need for toxic chemicals, cleanroom environments, and million-dollar equipment by replacing them with grocery store materials, desktop CNC machines, and open source software.</p>
+          <p>Every process recipe, equipment design, and experiment result is published openly. No patents. No paywalls.</p>
+        </div>
+        <div class="about-values">
+          <div class="value">
+            <div class="value-icon">
+              <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="4" width="32" height="32" stroke="#434e64" stroke-width="2"/><circle cx="20" cy="20" r="12" stroke="#434e64" stroke-width="1.5"/><rect x="10" y="10" width="20" height="20" stroke="#434e64" stroke-width="1.5" transform="rotate(45 20 20)"/><circle cx="20" cy="20" r="3" fill="#434e64"/></svg>
+            </div>
+            <h3>Open Source</h3>
+            <p>All designs, processes, and research published under permissive licenses.</p>
+          </div>
+          <div class="value">
+            <div class="value-icon">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="#434e64" stroke-width="2"/><rect x="8" y="8" width="24" height="24" stroke="#434e64" stroke-width="1.5" transform="rotate(45 20 20)"/><circle cx="20" cy="20" r="8" stroke="#434e64" stroke-width="1.5"/><rect x="14" y="14" width="12" height="12" stroke="#434e64" stroke-width="1.5"/><circle cx="20" cy="20" r="2.5" fill="#434e64"/></svg>
+            </div>
+            <h3>Accessible</h3>
+            <p>No specialty chemicals. No used equipment. Everything from Amazon and the grocery store.</p>
+          </div>
+          <div class="value">
+            <div class="value-icon">
+              <svg viewBox="0 0 40 40" fill="none"><rect x="2" y="2" width="36" height="36" stroke="#434e64" stroke-width="2"/><circle cx="20" cy="20" r="14" stroke="#434e64" stroke-width="1.5"/><rect x="7" y="7" width="26" height="26" stroke="#434e64" stroke-width="1.5" transform="rotate(45 20 20)"/><circle cx="20" cy="20" r="6" stroke="#434e64" stroke-width="1.5"/><circle cx="20" cy="20" r="2" fill="#434e64"/></svg>
+            </div>
+            <h3>Safe</h3>
+            <p>No HF. No organic solvents. Water-based development. Grocery store etchants.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <h2>Projects</h2>
+        <div class="section-line section-line-light"></div>
+      </div>
+
+      <div class="projects-grid">
+        <a href="https://levkropp.github.io/albu/" class="project-card">
+          <div class="project-card-header">
+            <div class="project-badge">Active</div>
+          </div>
+          <div class="project-mark">
+            <svg viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="46" rx="28" ry="36" stroke="#434e64" stroke-width="2.5" fill="none"/>
+              <circle cx="40" cy="46" r="18" stroke="#434e64" stroke-width="2" fill="none"/>
+              <rect x="30" y="36" width="20" height="20" rx="1" stroke="#434e64" stroke-width="1.5" fill="none" transform="rotate(45 40 46)"/>
+              <circle cx="40" cy="46" r="8" stroke="#434e64" stroke-width="1.5" fill="none"/>
+              <rect x="35" y="41" width="10" height="10" rx="0.5" stroke="#434e64" stroke-width="1" fill="none"/>
+              <circle cx="40" cy="46" r="2" fill="#434e64"/>
+            </svg>
+          </div>
+          <h3>KOSL Albu</h3>
+          <p>Open source home semiconductor fabrication using egg white photoresist and grocery store chemicals. Proving photolithography at 100&mu;m on a $525 setup.</p>
+          <div class="project-meta">
+            <span>Phase 1: Photoresist Validation</span>
+          </div>
+          <div class="project-link-text">View Project &rarr;</div>
+        </a>
+
+        <div class="project-card project-card-upcoming">
+          <div class="project-card-header">
+            <div class="project-badge project-badge-upcoming">Planned</div>
+          </div>
+          <div class="project-mark project-mark-dim">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="64" height="64" rx="2" stroke="#6b7280" stroke-width="2"/>
+              <circle cx="40" cy="40" r="24" stroke="#6b7280" stroke-width="1.5"/>
+              <rect x="18" y="18" width="44" height="44" rx="1" stroke="#6b7280" stroke-width="1.5" transform="rotate(45 40 40)"/>
+              <circle cx="40" cy="40" r="10" stroke="#6b7280" stroke-width="1.5"/>
+              <circle cx="40" cy="40" r="3" fill="#6b7280"/>
+            </svg>
+          </div>
+          <h3>KOSL Machine 3</h3>
+          <p>Automated maskless direct-write lithography system with machine vision alignment. 10&mu;m resolution. Software-defined patterns.</p>
+          <div class="project-meta">
+            <span>Pending Albu Phase 2 completion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Team</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-avatar">LK</div>
+          <h3>Lev Kropp</h3>
+          <p>Co-founder</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <h2>Contact</h2>
+        <div class="section-line section-line-light"></div>
+      </div>
+      <div class="contact-content">
+        <p>KOSL is based in Toronto, Canada.</p>
+        <p>For inquiries, collaboration, or to contribute to our open source projects:</p>
+        <div class="contact-links">
+          <a href="https://github.com/levkropp" class="contact-link">
+            <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-mark">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="4" width="32" height="32" stroke="#6b7280" stroke-width="2"/><circle cx="20" cy="20" r="12" stroke="#6b7280" stroke-width="1.5"/><rect x="10" y="10" width="20" height="20" stroke="#6b7280" stroke-width="1.5" transform="rotate(45 20 20)"/><circle cx="20" cy="20" r="5" stroke="#6b7280" stroke-width="1"/><circle cx="20" cy="20" r="2" fill="#6b7280"/></svg>
+        </div>
+        <p class="footer-copy">&copy; 2026 KOSL &mdash; Kropp Olsha Semiconductor Lithography</p>
+        <p class="footer-sub">Toronto, Canada</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
